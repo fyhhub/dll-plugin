@@ -1,0 +1,22 @@
+{
+  "name": "dll-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dll": "webpack --config webpack.dll.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "is-promise": "^4.0.0",
+    "isarray": "^2.0.5",
+    "neo-async": "^2.6.2"
+  }
+}
